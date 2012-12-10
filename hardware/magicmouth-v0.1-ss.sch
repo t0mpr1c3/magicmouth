@@ -4635,108 +4635,6 @@ Metric Code Size 5664</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="diode">
-<packages>
-<package name="DO35-7">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2 mm, horizontal, grid 7.62 mm</description>
-<wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
-<wire x1="-3.81" y1="0" x2="-2.921" y2="0" width="0.508" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="2.286" y1="0.762" x2="2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="0.762" x2="-2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
-<pad name="C" x="-3.81" y="0" drill="0.8128" shape="long"/>
-<pad name="A" x="3.81" y="0" drill="0.8128" shape="long"/>
-<text x="-2.286" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.905" y1="-1.016" x2="-1.397" y2="1.016" layer="21"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
-<rectangle x1="-2.921" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
-</package>
-<package name="DO35-10">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2 mm, horizontal, grid 10.16 mm</description>
-<wire x1="5.08" y1="0" x2="4.191" y2="0" width="0.508" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-4.191" y2="0" width="0.508" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.286" y1="-0.762" x2="2.286" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="0.762" x2="-2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
-<pad name="C" x="-5.08" y="0" drill="0.8128" shape="long"/>
-<pad name="A" x="5.08" y="0" drill="0.8128" shape="long"/>
-<text x="-2.159" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.159" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.905" y1="-1.016" x2="-1.397" y2="1.016" layer="21"/>
-<rectangle x1="2.286" y1="-0.254" x2="4.191" y2="0.254" layer="21"/>
-<rectangle x1="-4.191" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="D">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1N4148" prefix="D">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-high speed (Philips)</description>
-<gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="DO35-10" package="DO35-10">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="DO35-7" package="DO35-7">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="led">
 <packages>
 <package name="1206">
@@ -20182,63 +20080,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="t0mpr1c3">
-<packages>
-<package name="3352T">
-<wire x1="3.81" y1="-3.81" x2="-3.81" y2="-3.81" width="0.127" layer="21" curve="270"/>
-<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="-5.08" x2="3.81" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="-3.81" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.127" layer="21"/>
-<pad name="A" x="-2.54" y="-4.16" drill="0.6" diameter="1.27" shape="octagon"/>
-<pad name="S" x="0" y="-4.16" drill="0.6" diameter="1.27"/>
-<pad name="E" x="2.54" y="-4.16" drill="0.6" diameter="1.27"/>
-<text x="-3.175" y="-3.175" size="1.27" layer="48">1</text>
-<text x="-0.635" y="-3.175" size="1.27" layer="48">2</text>
-<text x="1.905" y="-3.175" size="1.27" layer="48">3</text>
-<text x="-3.81" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="1.905" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="3352">
-<description>Bourns PCB mount horizontal thumbwheel trimmer resistor</description>
-<wire x1="-1.27" y1="-2.667" x2="-1.27" y2="2.413" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="2.413" x2="1.27" y2="2.413" width="0.254" layer="94"/>
-<wire x1="1.27" y1="2.413" x2="1.27" y2="-0.127" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-0.127" x2="1.27" y2="-2.667" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.667" x2="-1.27" y2="-2.667" width="0.254" layer="94"/>
-<pin name="A" x="0" y="-7.747" visible="pad" length="middle" direction="pas" rot="R90"/>
-<pin name="S" x="6.35" y="-0.127" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="E" x="0" y="7.493" visible="pad" length="middle" direction="pas" rot="R270"/>
-<wire x1="2.54" y1="-0.762" x2="1.27" y2="-0.127" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-0.127" x2="2.54" y2="0.508" width="0.254" layer="94"/>
-<text x="-5.715" y="-5.207" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-3.175" y="-5.207" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TPOT">
-<gates>
-<gate name="G$1" symbol="3352" x="35.56" y="-15.24"/>
-</gates>
-<devices>
-<device name="" package="3352T">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="E" pad="E"/>
-<connect gate="G$1" pin="S" pad="S"/>
-</connects>
-<technologies>
-<technology name="3352"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
@@ -21622,6 +21463,65 @@ We've spent an enormous amount of time creating and checking these footprints an
 </deviceset>
 </devicesets>
 </library>
+<library name="t0mpr1c3">
+<description>Tom Price's library for Eagle 6.3.0</description>
+<packages>
+<package name="3352T">
+<wire x1="3.81" y1="-3.81" x2="-3.81" y2="-3.81" width="0.127" layer="21" curve="270"/>
+<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-5.08" x2="3.81" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="-3.81" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.127" layer="21"/>
+<pad name="A" x="-2.54" y="-4.16" drill="0.8" diameter="1.27" shape="octagon"/>
+<pad name="S" x="0" y="-4.16" drill="0.8" diameter="1.27"/>
+<pad name="E" x="2.54" y="-4.16" drill="0.8" diameter="1.27"/>
+<text x="-3.175" y="-3.175" size="1.27" layer="48">1</text>
+<text x="-0.635" y="-3.175" size="1.27" layer="48">2</text>
+<text x="1.905" y="-3.175" size="1.27" layer="48">3</text>
+<text x="-3.81" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="1.905" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="3352">
+<description>Bourns PCB mount horizontal thumbwheel trimmer resistor</description>
+<wire x1="-1.27" y1="-2.667" x2="-1.27" y2="2.413" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.413" x2="1.27" y2="2.413" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.413" x2="1.27" y2="-0.127" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.127" x2="1.27" y2="-2.667" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.667" x2="-1.27" y2="-2.667" width="0.254" layer="94"/>
+<pin name="A" x="0" y="-7.747" visible="pad" length="middle" direction="pas" rot="R90"/>
+<pin name="S" x="6.35" y="-0.127" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="E" x="0" y="7.493" visible="pad" length="middle" direction="pas" rot="R270"/>
+<wire x1="2.54" y1="-0.762" x2="1.27" y2="-0.127" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.127" x2="2.54" y2="0.508" width="0.254" layer="94"/>
+<text x="-5.715" y="-5.207" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.175" y="-5.207" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPOT">
+<description>Bourns thumbwheel trimmer resistor</description>
+<gates>
+<gate name="G$1" symbol="3352" x="35.56" y="-15.24"/>
+</gates>
+<devices>
+<device name="" package="3352T">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name="3352"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21634,7 +21534,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <parts>
 <part name="IC1" library="linear" deviceset="LM386?-*" device="N" technology="1" value="LM386N"/>
 <part name="R1" library="resistor" deviceset="R-EU_" device="0207/7" value="10R"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="0207/10" value="2K7"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="0207/7" value="2K7"/>
 <part name="GND1" library="supply2" deviceset="GND" device=""/>
 <part name="C1" library="resistor" deviceset="C-EU" device="050-025X075" value="10nF"/>
 <part name="GND2" library="supply2" deviceset="GND" device=""/>
@@ -21648,7 +21548,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="C5" library="rcl" deviceset="CPOL-EU" device="TT5D7L" value="220uF"/>
 <part name="GND3" library="supply2" deviceset="GND" device=""/>
 <part name="JP1" library="jumper" deviceset="JP2E" device=""/>
-<part name="D1" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="0207/7" value="1K"/>
 <part name="LED" library="led" deviceset="LED" device="3MM"/>
 <part name="GND9" library="supply2" deviceset="GND" device=""/>
@@ -21674,11 +21573,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 </part>
 <part name="GND12" library="supply2" deviceset="GND1" device=""/>
 <part name="GND13" library="supply2" deviceset="GND1" device=""/>
-<part name="JP2" library="adafruit" deviceset="PINHD-1X8" device="BIG"/>
+<part name="JP2" library="adafruit" deviceset="PINHD-1X8" device="CLEANBIG"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND14" library="supply2" deviceset="GND" device=""/>
-<part name="JP4" library="adafruit" deviceset="PINHD-1X6" device="B"/>
+<part name="JP4" library="adafruit" deviceset="PINHD-1X6" device="CB"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
@@ -21695,8 +21594,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R7" library="rcl" deviceset="R-EU_" device="0207/7" value="4K7">
 <attribute name="RESISTANCE" value="4K7"/>
 </part>
-<part name="C10" library="resistor" deviceset="C-EU" device="050-025X075" value="1uF"/>
 <part name="JP9" library="SparkFun-Connectors" deviceset="M01" device="SMDNS" value="M01SMDNS"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="0207/7" value="220K"/>
 </parts>
 <sheets>
 <sheet>
@@ -21708,8 +21607,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="170.18" y="55.88" size="1.778" layer="91">Shield</text>
 <text x="109.22" y="27.94" size="1.778" layer="91">3.5mm headphone
 jack socket</text>
-<text x="73.66" y="76.2" size="1.778" layer="91">C10 optional
-to increase gain</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="60.96" y="63.5"/>
@@ -21725,10 +21622,9 @@ to increase gain</text>
 <instance part="GND5" gate="GND" x="58.42" y="40.64"/>
 <instance part="GND6" gate="GND" x="99.06" y="25.4"/>
 <instance part="R4" gate="G$1" x="58.42" y="116.84" rot="R180"/>
-<instance part="C5" gate="G$1" x="73.66" y="96.52"/>
-<instance part="GND3" gate="GND" x="73.66" y="88.9"/>
+<instance part="C5" gate="G$1" x="68.58" y="93.98"/>
+<instance part="GND3" gate="GND" x="68.58" y="86.36"/>
 <instance part="JP1" gate="1" x="68.58" y="119.38"/>
-<instance part="D1" gate="G$1" x="68.58" y="109.22" rot="R270"/>
 <instance part="R5" gate="G$1" x="81.28" y="114.3" rot="R180"/>
 <instance part="LED" gate="G$1" x="91.44" y="109.22"/>
 <instance part="GND9" gate="GND" x="91.44" y="99.06"/>
@@ -21763,8 +21659,8 @@ to increase gain</text>
 <instance part="U$2" gate="G$1" x="111.76" y="40.64" rot="R180"/>
 <instance part="S1" gate="G$1" x="160.02" y="43.18" rot="R90"/>
 <instance part="R7" gate="G$1" x="149.86" y="58.42"/>
-<instance part="C10" gate="G$1" x="66.04" y="76.2"/>
 <instance part="JP9" gate="G$1" x="254" y="55.88" rot="R90"/>
+<instance part="R8" gate="G$1" x="40.64" y="83.82" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -21836,8 +21732,8 @@ to increase gain</text>
 <segment>
 <wire x1="35.56" y1="96.52" x2="40.64" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="-"/>
-<pinref part="R3" gate="G$1" pin="E"/>
-<wire x1="40.64" y1="73.533" x2="40.64" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="88.9" x2="40.64" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -21860,13 +21756,17 @@ to increase gain</text>
 <net name="VS" class="0">
 <segment>
 <wire x1="58.42" y1="71.12" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="96.52" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="106.68" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="114.3" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
 <junction x="68.58" y="99.06"/>
 <pinref part="IC1" gate="G$1" pin="VS"/>
 <pinref part="C5" gate="G$1" pin="+"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="JP1" gate="1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="114.3" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
+<junction x="68.58" y="114.3"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -22176,17 +22076,6 @@ to increase gain</text>
 <wire x1="292.1" y1="38.1" x2="292.1" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$27" class="0">
-<segment>
-<wire x1="68.58" y1="111.76" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="1" pin="2"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="114.3" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
-<junction x="68.58" y="114.3"/>
-</segment>
-</net>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="3V"/>
@@ -22271,22 +22160,6 @@ to increase gain</text>
 <wire x1="160.02" y1="38.1" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="GAIN@2"/>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="68.58" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="78.74" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="81.28" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GAIN@1"/>
-<wire x1="63.5" y1="81.28" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="1"/>
@@ -22294,6 +22167,13 @@ to increase gain</text>
 <pinref part="IC2" gate="G$1" pin="(PCI2/SS/OC1B)PB2"/>
 <wire x1="233.68" y1="76.2" x2="254" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="254" y1="63.5" x2="254" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="E"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="73.533" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

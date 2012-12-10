@@ -2393,108 +2393,6 @@ type 0204, grid 2.5 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="diode">
-<packages>
-<package name="DO35-7">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2 mm, horizontal, grid 7.62 mm</description>
-<wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
-<wire x1="-3.81" y1="0" x2="-2.921" y2="0" width="0.508" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="2.286" y1="0.762" x2="2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="0.762" x2="-2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
-<pad name="C" x="-3.81" y="0" drill="0.8128" shape="long"/>
-<pad name="A" x="3.81" y="0" drill="0.8128" shape="long"/>
-<text x="-2.286" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.905" y1="-1.016" x2="-1.397" y2="1.016" layer="21"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
-<rectangle x1="-2.921" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
-</package>
-<package name="DO35-10">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2 mm, horizontal, grid 10.16 mm</description>
-<wire x1="5.08" y1="0" x2="4.191" y2="0" width="0.508" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-4.191" y2="0" width="0.508" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.286" y1="-0.762" x2="2.286" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="0.762" x2="-2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
-<pad name="C" x="-5.08" y="0" drill="0.8128" shape="long"/>
-<pad name="A" x="5.08" y="0" drill="0.8128" shape="long"/>
-<text x="-2.159" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.159" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.905" y1="-1.016" x2="-1.397" y2="1.016" layer="21"/>
-<rectangle x1="2.286" y1="-0.254" x2="4.191" y2="0.254" layer="21"/>
-<rectangle x1="-4.191" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="D">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1N4148" prefix="D">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-high speed (Philips)</description>
-<gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="DO35-10" package="DO35-10">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="DO35-7" package="DO35-7">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="led">
 <packages>
 <package name="1206">
@@ -19078,6 +18976,54 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="wirepad">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1,6/0,8">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<wire x1="-0.762" y1="0.762" x2="-0.508" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="0.762" x2="0.508" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-0.508" x2="0.762" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-0.762" x2="0.508" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="-0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-0.762" x2="-0.762" y2="-0.508" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.635" width="0.1524" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<text x="-0.762" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="0.6" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PAD">
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1,6/0,8" prefix="PAD" uservalue="yes">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<gates>
+<gate name="P" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1,6/0,8">
+<connects>
+<connect gate="P" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19090,7 +19036,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <parts>
 <part name="IC1" library="linear" deviceset="LM386?-*" device="N" technology="1" value="LM386N"/>
 <part name="R1" library="resistor" deviceset="R-EU_" device="0207/7" value="10R"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="0207/10" value="2K7"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="0207/7" value="2K7"/>
 <part name="GND1" library="supply2" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="050-025X075" value="10nF"/>
 <part name="GND2" library="supply2" deviceset="GND" device=""/>
@@ -19104,7 +19050,6 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="C5" library="rcl" deviceset="CPOL-EU" device="TT5D7L" value="220uF"/>
 <part name="GND3" library="supply2" deviceset="GND" device=""/>
 <part name="JP1" library="jumper" deviceset="JP2E" device=""/>
-<part name="D1" library="diode" deviceset="1N4148" device="DO35-7" value="1N4148"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="0207/7" value="1K"/>
 <part name="LED" library="led" deviceset="LED" device="3MM"/>
 <part name="GND9" library="supply2" deviceset="GND" device=""/>
@@ -19130,11 +19075,11 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 </part>
 <part name="GND12" library="supply2" deviceset="GND1" device=""/>
 <part name="GND13" library="supply2" deviceset="GND1" device=""/>
-<part name="JP2" library="adafruit" deviceset="PINHD-1X8" device="BIG"/>
+<part name="JP2" library="adafruit" deviceset="PINHD-1X8" device="CLEANBIG"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND14" library="supply2" deviceset="GND" device=""/>
-<part name="JP4" library="adafruit" deviceset="PINHD-1X6" device="B"/>
+<part name="JP4" library="adafruit" deviceset="PINHD-1X6" device="CB"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
@@ -19147,10 +19092,14 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="JP7" library="SparkFun-Passives" deviceset="JUMPER-2" device="PTH"/>
 <part name="JP8" library="SparkFun-Passives" deviceset="JUMPER-2" device="PTH"/>
 <part name="U$2" library="SparkFun-Connectors" deviceset="AUDIO-JACK2" device="PTH"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="050-025X075" value="1uF">
-<attribute name="CAPACITANCE" value="22 pf"/>
-</part>
 <part name="JP9" library="SparkFun-Connectors" deviceset="M01" device="SMDNS"/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="0207/7" value="220K"/>
+<part name="PAD1" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="PAD2" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="PAD3" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="PAD4" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="PAD5" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="PAD6" library="wirepad" deviceset="1,6/0,8" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19162,8 +19111,6 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <text x="185.42" y="55.88" size="1.778" layer="91">Shield</text>
 <text x="109.22" y="27.94" size="1.778" layer="91">3.5mm headphone
 jack socket</text>
-<text x="73.66" y="76.2" size="1.778" layer="91">C10 optional
-to increase gain</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="60.96" y="63.5"/>
@@ -19179,10 +19126,9 @@ to increase gain</text>
 <instance part="GND5" gate="GND" x="58.42" y="40.64"/>
 <instance part="GND6" gate="GND" x="99.06" y="25.4"/>
 <instance part="R4" gate="G$1" x="58.42" y="116.84" rot="R180"/>
-<instance part="C5" gate="G$1" x="73.66" y="96.52"/>
-<instance part="GND3" gate="GND" x="73.66" y="88.9"/>
+<instance part="C5" gate="G$1" x="68.58" y="93.98"/>
+<instance part="GND3" gate="GND" x="68.58" y="86.36"/>
 <instance part="JP1" gate="1" x="68.58" y="119.38"/>
-<instance part="D1" gate="G$1" x="68.58" y="109.22" rot="R270"/>
 <instance part="R5" gate="G$1" x="81.28" y="114.3" rot="R180"/>
 <instance part="LED" gate="G$1" x="91.44" y="109.22"/>
 <instance part="GND9" gate="GND" x="91.44" y="99.06"/>
@@ -19215,8 +19161,14 @@ to increase gain</text>
 <instance part="JP7" gate="A" x="269.24" y="40.64"/>
 <instance part="JP8" gate="A" x="276.86" y="38.1"/>
 <instance part="U$2" gate="G$1" x="111.76" y="40.64" rot="R180"/>
-<instance part="C10" gate="G$1" x="66.04" y="78.74"/>
 <instance part="JP9" gate="G$1" x="254" y="58.42" rot="R90"/>
+<instance part="R7" gate="G$1" x="40.64" y="83.82" rot="R270"/>
+<instance part="PAD1" gate="P" x="60.96" y="71.12"/>
+<instance part="PAD2" gate="P" x="60.96" y="76.2"/>
+<instance part="PAD3" gate="P" x="68.58" y="71.12" rot="R180"/>
+<instance part="PAD4" gate="P" x="68.58" y="76.2" rot="R180"/>
+<instance part="PAD5" gate="P" x="66.04" y="55.88" rot="R180"/>
+<instance part="PAD6" gate="P" x="81.28" y="68.58" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -19324,10 +19276,9 @@ to increase gain</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="35.56" y1="96.52" x2="40.64" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="-"/>
 <pinref part="R3" gate="G$1" pin="E"/>
-<wire x1="40.64" y1="73.533" x2="40.64" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="73.533" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -19345,18 +19296,24 @@ to increase gain</text>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <pinref part="C3" gate="G$1" pin="+"/>
 <pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="PAD6" gate="P" pin="P"/>
+<wire x1="81.28" y1="63.5" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VS" class="0">
 <segment>
 <wire x1="58.42" y1="71.12" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="96.52" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="106.68" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="114.3" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
 <junction x="68.58" y="99.06"/>
 <pinref part="IC1" gate="G$1" pin="VS"/>
 <pinref part="C5" gate="G$1" pin="+"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="JP1" gate="1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="114.3" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
+<junction x="68.58" y="114.3"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -19624,17 +19581,6 @@ to increase gain</text>
 <wire x1="292.1" y1="38.1" x2="292.1" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$27" class="0">
-<segment>
-<wire x1="68.58" y1="111.76" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="1" pin="2"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="114.3" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
-<junction x="68.58" y="114.3"/>
-</segment>
-</net>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="3V"/>
@@ -19704,28 +19650,45 @@ to increase gain</text>
 <wire x1="236.22" y1="35.56" x2="276.86" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$98" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="GAIN@1"/>
-<wire x1="63.5" y1="68.58" x2="63.5" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="83.82" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="83.82" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$99" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="GAIN@2"/>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="68.58" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="(PCI2/SS/OC1B)PB2"/>
 <pinref part="JP9" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="76.2" x2="254" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="254" y1="76.2" x2="254" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$87" class="0">
+<segment>
+<pinref part="C2" gate="G$1" pin="-"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="96.52" x2="40.64" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="96.52" x2="40.64" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$58" class="0">
+<segment>
+<pinref part="PAD2" gate="P" pin="P"/>
+<pinref part="PAD1" gate="P" pin="P"/>
+<wire x1="63.5" y1="76.2" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="GAIN@1"/>
+<wire x1="63.5" y1="71.12" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$101" class="0">
+<segment>
+<pinref part="PAD4" gate="P" pin="P"/>
+<pinref part="PAD3" gate="P" pin="P"/>
+<wire x1="66.04" y1="76.2" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="GAIN@2"/>
+<wire x1="66.04" y1="71.12" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$94" class="0">
+<segment>
+<pinref part="PAD5" gate="P" pin="P"/>
+<pinref part="IC1" gate="G$1" pin="BYPASS"/>
+<wire x1="63.5" y1="55.88" x2="63.5" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
