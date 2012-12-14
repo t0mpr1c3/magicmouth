@@ -21591,11 +21591,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="JP8" library="SparkFun-Passives" deviceset="JUMPER-2" device="PTH"/>
 <part name="U$2" library="SparkFun-Connectors" deviceset="AUDIO-JACK2" device="PTH"/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="PTH"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="0207/7" value="4K7">
-<attribute name="RESISTANCE" value="4K7"/>
-</part>
 <part name="JP9" library="SparkFun-Connectors" deviceset="M01" device="SMDNS" value="M01SMDNS"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="0207/7" value="220K"/>
+<part name="GND7" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21658,9 +21656,9 @@ jack socket</text>
 <instance part="JP8" gate="A" x="276.86" y="38.1"/>
 <instance part="U$2" gate="G$1" x="111.76" y="40.64" rot="R180"/>
 <instance part="S1" gate="G$1" x="160.02" y="43.18" rot="R90"/>
-<instance part="R7" gate="G$1" x="149.86" y="58.42"/>
 <instance part="JP9" gate="G$1" x="254" y="55.88" rot="R90"/>
 <instance part="R8" gate="G$1" x="40.64" y="83.82" rot="R270"/>
+<instance part="GND7" gate="GND" x="147.32" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -21726,6 +21724,12 @@ jack socket</text>
 <pinref part="GND4" gate="GND" pin="GND"/>
 <pinref part="R3" gate="G$1" pin="A"/>
 <wire x1="40.64" y1="58.293" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="2"/>
+<wire x1="160.02" y1="58.42" x2="160.02" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="GND" pin="GND"/>
+<wire x1="147.32" y1="58.42" x2="160.02" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -22001,11 +22005,7 @@ jack socket</text>
 <pinref part="U1" gate="G$1" pin="5V"/>
 <wire x1="160.02" y1="30.48" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
-<wire x1="139.7" y1="63.5" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="58.42" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="58.42" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
-<junction x="139.7" y="58.42"/>
+<wire x1="139.7" y1="63.5" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
@@ -22143,14 +22143,6 @@ jack socket</text>
 <pinref part="U1" gate="G$1" pin="D10"/>
 <pinref part="JP8" gate="A" pin="1"/>
 <wire x1="220.98" y1="35.56" x2="276.86" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="58.42" x2="160.02" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="58.42" x2="160.02" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
