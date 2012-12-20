@@ -122,7 +122,7 @@
 <wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
 <wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
-<text x="76.962" y="22.352" size="1.4224" layer="21" font="vector" rot="R90">Magic Mouth v1.0</text>
+<text x="77.597" y="22.352" size="1.4224" layer="21" font="vector" rot="R90">Magic Mouth v1.0</text>
 <text x="42.164" y="14.097" size="0.8128" layer="21" font="vector">RST</text>
 <text x="60.325" y="10.541" size="0.8128" layer="21" font="vector">A0</text>
 <text x="62.865" y="10.541" size="0.8128" layer="21" font="vector">A1</text>
@@ -193,7 +193,7 @@
 <text x="14.732" y="24.13" size="0.8128" layer="22" font="vector" rot="MR270">SP-</text>
 <text x="14.732" y="26.67" size="0.8128" layer="22" font="vector" rot="MR270">SP+</text>
 <text x="72.009" y="32.766" size="1.27" layer="22" font="vector" rot="MR90">http://is.gd/magicmouth</text>
-<text x="77.343" y="41.656" size="1.4224" layer="22" font="vector" rot="MR270">Magic Mouth v1.0</text>
+<text x="77.978" y="41.656" size="1.4224" layer="22" font="vector" rot="MR270">Magic Mouth v1.0</text>
 <text x="70.485" y="48.895" size="1.4224" layer="21" font="vector" rot="R90">MSMM10</text>
 <text x="69.215" y="48.895" size="1.4224" layer="22" font="vector" rot="MR90">MSMM10</text>
 <rectangle x1="17.5387" y1="48.2219" x2="17.8689" y2="48.2473" layer="21" rot="R90"/>
