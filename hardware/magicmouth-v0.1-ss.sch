@@ -21811,9 +21811,8 @@ jack socket</text>
 <pinref part="Q1" gate="G$1" pin="2"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="101.6" x2="167.64" y2="101.6" width="0.1524" layer="91"/>
-<junction x="172.72" y="101.6"/>
 <pinref part="IC2" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
-<wire x1="172.72" y1="101.6" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="101.6" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -21821,8 +21820,8 @@ jack socket</text>
 <pinref part="Q1" gate="G$1" pin="1"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="96.52" x2="167.64" y2="96.52" width="0.1524" layer="91"/>
-<junction x="172.72" y="96.52"/>
-<wire x1="172.72" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
+<wire x1="182.88" y1="96.52" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SS" class="0">
@@ -21924,49 +21923,50 @@ jack socket</text>
 </net>
 <net name="MISO" class="0">
 <segment>
-<wire x1="231.14" y1="71.12" x2="289.56" y2="71.12" width="0.1524" layer="91"/>
 <label x="274.32" y="71.12" size="1.778" layer="95"/>
 <pinref part="JP6" gate="A" pin="2"/>
 <wire x1="264.16" y1="40.64" x2="289.56" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="40.64" x2="289.56" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="PB4(MISO)"/>
+<wire x1="289.56" y1="71.12" x2="231.14" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCK" class="0">
 <segment>
-<wire x1="231.14" y1="68.58" x2="287.02" y2="68.58" width="0.1524" layer="91"/>
 <label x="274.32" y="68.58" size="1.778" layer="95"/>
 <pinref part="JP5" gate="A" pin="2"/>
 <wire x1="256.54" y1="43.18" x2="287.02" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="43.18" x2="287.02" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="PB5(SCK)"/>
+<wire x1="287.02" y1="68.58" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
-<wire x1="231.14" y1="116.84" x2="243.84" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="116.84" x2="243.84" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-10.16" x2="243.84" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-10.16" x2="154.94" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PC4(ADC4/SDA)"/>
+<wire x1="231.14" y1="116.84" x2="243.84" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="A4/SDA"/>
+<wire x1="154.94" y1="7.62" x2="160.02" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="5"/>
 <wire x1="243.84" y1="116.84" x2="266.7" y2="116.84" width="0.1524" layer="91"/>
 <junction x="243.84" y="116.84"/>
-<wire x1="154.94" y1="-10.16" x2="243.84" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="-10.16" x2="154.94" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="A4/SDA"/>
-<wire x1="154.94" y1="7.62" x2="160.02" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PC4(ADC4/SDA)"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
 <wire x1="241.3" y1="-7.62" x2="241.3" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="114.3" x2="228.6" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-7.62" x2="241.3" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-7.62" x2="157.48" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PC5(ADC5/SCL)"/>
+<wire x1="231.14" y1="114.3" x2="241.3" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="A5/SCL"/>
+<wire x1="157.48" y1="5.08" x2="160.02" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="6"/>
 <wire x1="241.3" y1="114.3" x2="266.7" y2="114.3" width="0.1524" layer="91"/>
 <junction x="241.3" y="114.3"/>
-<wire x1="157.48" y1="-7.62" x2="241.3" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="-7.62" x2="157.48" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="A5/SCL"/>
-<wire x1="157.48" y1="5.08" x2="160.02" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -21981,33 +21981,6 @@ jack socket</text>
 <pinref part="P+2" gate="1" pin="V+"/>
 <wire x1="81.28" y1="116.84" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="JP4" gate="A" pin="1"/>
-<wire x1="228.6" y1="127" x2="266.7" y2="127" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="JP4" gate="A" pin="2"/>
-<wire x1="231.14" y1="124.46" x2="266.7" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PC1(ADC1)"/>
-</segment>
-</net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="JP4" gate="A" pin="3"/>
-<wire x1="231.14" y1="121.92" x2="266.7" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PC2(ADC2)"/>
-</segment>
-</net>
-<net name="N$33" class="0">
-<segment>
-<pinref part="JP4" gate="A" pin="4"/>
-<wire x1="231.14" y1="119.38" x2="266.7" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PC3(ADC3)"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -22078,11 +22051,12 @@ jack socket</text>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<wire x1="228.6" y1="73.66" x2="292.1" y2="73.66" width="0.1524" layer="91"/>
 <label x="274.32" y="73.66" size="1.778" layer="95"/>
 <pinref part="JP7" gate="A" pin="2"/>
 <wire x1="271.78" y1="38.1" x2="292.1" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="38.1" x2="292.1" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PB3(MOSI/OC2)"/>
+<wire x1="292.1" y1="73.66" x2="231.14" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -22165,8 +22139,9 @@ jack socket</text>
 <segment>
 <pinref part="JP9" gate="G$1" pin="1"/>
 <wire x1="254" y1="63.5" x2="254" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="76.2" x2="254" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="254" y1="63.5" x2="254" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PB2(SS/OC1B)"/>
+<wire x1="254" y1="76.2" x2="231.14" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -22182,6 +22157,34 @@ jack socket</text>
 <wire x1="182.88" y1="111.76" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="91.44" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="PC0(ADC0)"/>
+<pinref part="JP4" gate="A" pin="1"/>
+<wire x1="231.14" y1="127" x2="266.7" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="PC1(ADC1)"/>
+<pinref part="JP4" gate="A" pin="2"/>
+<wire x1="231.14" y1="124.46" x2="266.7" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="PC2(ADC2)"/>
+<pinref part="JP4" gate="A" pin="3"/>
+<wire x1="231.14" y1="121.92" x2="266.7" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="PC3(ADC3)"/>
+<pinref part="JP4" gate="A" pin="4"/>
+<wire x1="231.14" y1="119.38" x2="266.7" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -19144,7 +19144,9 @@ jack socket</text>
 <instance part="JP7" gate="A" x="269.24" y="40.64"/>
 <instance part="JP8" gate="A" x="276.86" y="38.1"/>
 <instance part="U$2" gate="G$1" x="111.76" y="40.64" rot="R180"/>
-<instance part="JP9" gate="G$1" x="254" y="58.42" rot="R90"/>
+<instance part="JP9" gate="G$1" x="254" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="250.698" y="55.88" size="1.778" layer="95" rot="R90"/>
+</instance>
 <instance part="R7" gate="G$1" x="40.64" y="83.82" rot="R270"/>
 <instance part="PAD1" gate="P" x="60.96" y="71.12"/>
 <instance part="PAD2" gate="P" x="60.96" y="76.2"/>
@@ -19330,20 +19332,7 @@ jack socket</text>
 <pinref part="IC2" gate="G$1" pin="PD7(AIN1)"/>
 </segment>
 </net>
-<net name="N$24" class="0">
-<segment>
-<wire x1="228.6" y1="83.82" x2="302.26" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
-<pinref part="IC2" gate="G$1" pin="PB0(ICP)"/>
-</segment>
-</net>
 <net name="SIGNAL" class="0">
-<segment>
-<label x="274.32" y="81.28" size="1.778" layer="95"/>
-<wire x1="228.6" y1="81.28" x2="302.26" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
-<pinref part="IC2" gate="G$1" pin="PB1(OC1A)"/>
-</segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="114.3" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
@@ -19351,25 +19340,31 @@ jack socket</text>
 <wire x1="38.1" y1="116.84" x2="38.1" y2="134.62" width="0.1524" layer="91"/>
 <label x="38.1" y="124.46" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="IC2" gate="G$1" pin="PB1(OC1A)"/>
+<wire x1="228.6" y1="81.28" x2="302.26" y2="81.28" width="0.1524" layer="91"/>
+<label x="274.32" y="81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
-<wire x1="228.6" y1="73.66" x2="289.56" y2="73.66" width="0.1524" layer="91"/>
 <label x="274.32" y="73.66" size="1.778" layer="95"/>
 <pinref part="JP6" gate="A" pin="2"/>
 <wire x1="264.16" y1="40.64" x2="289.56" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="40.64" x2="289.56" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="PB4(MISO)"/>
+<wire x1="289.56" y1="73.66" x2="228.6" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCK" class="0">
 <segment>
-<wire x1="228.6" y1="71.12" x2="287.02" y2="71.12" width="0.1524" layer="91"/>
 <label x="274.32" y="71.12" size="1.778" layer="95"/>
 <pinref part="JP5" gate="A" pin="2"/>
 <wire x1="256.54" y1="43.18" x2="287.02" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="43.18" x2="287.02" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="PB5(SCK)"/>
+<wire x1="287.02" y1="71.12" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -19446,12 +19441,12 @@ jack socket</text>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<wire x1="228.6" y1="76.2" x2="292.1" y2="76.2" width="0.1524" layer="91"/>
 <label x="274.32" y="76.2" size="1.778" layer="95"/>
 <pinref part="JP7" gate="A" pin="2"/>
 <wire x1="271.78" y1="38.1" x2="292.1" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="38.1" x2="292.1" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="PB3(MOSI/OC2)"/>
+<wire x1="292.1" y1="76.2" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -19531,9 +19526,9 @@ jack socket</text>
 <net name="N$12" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="78.74" x2="254" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="254" y1="78.74" x2="254" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="PB2(SS/OC1B)"/>
+<wire x1="254" y1="78.74" x2="228.6" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$87" class="0">
@@ -19715,6 +19710,13 @@ jack socket</text>
 <wire x1="142.24" y1="91.44" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="AREF"/>
 <wire x1="142.24" y1="114.3" x2="180.34" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="D8" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="PB0(ICP)"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="302.26" y1="83.82" x2="228.6" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
