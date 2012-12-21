@@ -21558,33 +21558,33 @@ This is the through-hole version of this chip.</description>
 <part name="C1" library="resistor" deviceset="C-EU" device="050-025X075" value="10nF"/>
 <part name="GND2" library="supply2" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="10uF"/>
-<part name="C5" library="rcl" deviceset="CPOL-EU" device="TT5D7L" value="220uF"/>
-<part name="C4" library="resistor" deviceset="C-EU" device="050-025X075" value="47nF"/>
+<part name="C6" library="rcl" deviceset="CPOL-EU" device="TT5D7L" value="220uF"/>
+<part name="C5" library="resistor" deviceset="C-EU" device="050-025X075" value="47nF"/>
 <part name="GND4" library="supply2" deviceset="GND" device=""/>
 <part name="GND5" library="supply2" deviceset="GND" device=""/>
 <part name="GND6" library="supply2" deviceset="GND" device=""/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="0207/7" value="10R"/>
-<part name="C6" library="rcl" deviceset="CPOL-EU" device="TT5D7L" value="220uF"/>
+<part name="C7" library="rcl" deviceset="CPOL-EU" device="TT5D7L" value="220uF"/>
 <part name="GND3" library="supply2" deviceset="GND" device=""/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="0207/7" value="1K"/>
 <part name="LED" library="led" deviceset="LED" device="3MM"/>
 <part name="GND9" library="supply2" deviceset="GND" device=""/>
 <part name="U1" library="adafruit" deviceset="ARDUINOR3-NOIOREF" device="-NOTEXT" value="ARDUINOR3-NOIOREF-NOTEXT"/>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49S" value="16Mhz"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="025-025X050" value="22pF">
-<attribute name="CAPACITANCE" value="22 pf"/>
-</part>
 <part name="C10" library="rcl" deviceset="C-EU" device="025-025X050" value="22pF">
 <attribute name="CAPACITANCE" value="22 pf"/>
 </part>
-<part name="C7" library="rcl" deviceset="C-EU" device="025-025X050" value="100nF">
+<part name="C11" library="rcl" deviceset="C-EU" device="025-025X050" value="22pF">
+<attribute name="CAPACITANCE" value="22 pf"/>
+</part>
+<part name="C8" library="rcl" deviceset="C-EU" device="025-025X050" value="100nF">
 <attribute name="CAPACITANCE" value="10 nF"/>
 </part>
 <part name="GND11" library="supply2" deviceset="GND1" device=""/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="0207/7" value="4K7">
 <attribute name="RESISTANCE" value="4K7"/>
 </part>
-<part name="C8" library="rcl" deviceset="C-EU" device="025-025X050" value="100nF">
+<part name="C9" library="rcl" deviceset="C-EU" device="025-025X050" value="100nF">
 <attribute name="CAPACITANCE" value="100 nF"/>
 </part>
 <part name="GND13" library="supply2" deviceset="GND1" device=""/>
@@ -21614,6 +21614,8 @@ This is the through-hole version of this chip.</description>
 <part name="C2" library="resistor" deviceset="C-EU" device="050-025X075" value="1nF"/>
 <part name="GND8" library="supply2" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="0207/7" value="15K"/>
+<part name="C4" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="10uF"/>
+<part name="GND10" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21634,25 +21636,25 @@ jack socket</text>
 <instance part="C1" gate="G$1" x="22.86" y="58.42"/>
 <instance part="GND2" gate="GND" x="22.86" y="40.64"/>
 <instance part="C3" gate="G$1" x="45.72" y="93.98"/>
-<instance part="C5" gate="G$1" x="88.9" y="63.5" rot="R90"/>
-<instance part="C4" gate="G$1" x="81.28" y="58.42"/>
+<instance part="C6" gate="G$1" x="88.9" y="63.5" rot="R90"/>
+<instance part="C5" gate="G$1" x="81.28" y="58.42"/>
 <instance part="GND4" gate="GND" x="45.72" y="40.64"/>
 <instance part="GND5" gate="GND" x="58.42" y="40.64"/>
 <instance part="GND6" gate="GND" x="99.06" y="25.4"/>
 <instance part="R6" gate="G$1" x="58.42" y="116.84" rot="R180"/>
-<instance part="C6" gate="G$1" x="68.58" y="93.98"/>
+<instance part="C7" gate="G$1" x="68.58" y="93.98"/>
 <instance part="GND3" gate="GND" x="68.58" y="86.36"/>
 <instance part="R7" gate="G$1" x="81.28" y="114.3" rot="R180"/>
 <instance part="LED" gate="G$1" x="91.44" y="109.22"/>
 <instance part="GND9" gate="GND" x="91.44" y="99.06"/>
 <instance part="U1" gate="G$1" x="190.5" y="27.94" rot="R270"/>
 <instance part="Q1" gate="G$1" x="172.72" y="99.06" rot="R90"/>
-<instance part="C9" gate="G$1" x="162.56" y="101.6" rot="R90"/>
-<instance part="C10" gate="G$1" x="165.1" y="96.52" rot="R270"/>
-<instance part="C7" gate="G$1" x="132.08" y="88.9"/>
+<instance part="C10" gate="G$1" x="162.56" y="101.6" rot="R90"/>
+<instance part="C11" gate="G$1" x="165.1" y="96.52" rot="R270"/>
+<instance part="C8" gate="G$1" x="132.08" y="88.9"/>
 <instance part="GND11" gate="G$1" x="132.08" y="66.04"/>
 <instance part="R8" gate="G$1" x="132.08" y="134.62" rot="R270"/>
-<instance part="C8" gate="G$1" x="142.24" y="88.9"/>
+<instance part="C9" gate="G$1" x="142.24" y="88.9"/>
 <instance part="GND13" gate="G$1" x="139.7" y="20.32"/>
 <instance part="JP3" gate="G$1" x="269.24" y="96.52"/>
 <instance part="P+1" gate="1" x="147.32" y="45.72"/>
@@ -21686,6 +21688,8 @@ jack socket</text>
 <instance part="C2" gate="G$1" x="33.02" y="58.42"/>
 <instance part="GND8" gate="GND" x="33.02" y="40.64"/>
 <instance part="R2" gate="G$1" x="27.94" y="96.52"/>
+<instance part="C4" gate="G$1" x="63.5" y="50.8"/>
+<instance part="GND10" gate="GND" x="63.5" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -21732,7 +21736,7 @@ jack socket</text>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="-"/>
+<pinref part="C7" gate="G$1" pin="-"/>
 <pinref part="GND3" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -21762,6 +21766,11 @@ jack socket</text>
 <pinref part="GND8" gate="GND" pin="GND"/>
 <wire x1="33.02" y1="53.34" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND10" gate="GND" pin="GND"/>
+<pinref part="C4" gate="G$1" pin="-"/>
+<wire x1="63.5" y1="43.18" x2="63.5" y2="45.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
@@ -21774,7 +21783,7 @@ jack socket</text>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -21784,8 +21793,8 @@ jack socket</text>
 <wire x1="81.28" y1="60.96" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
 <junction x="81.28" y="63.5"/>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
-<pinref part="C5" gate="G$1" pin="+"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="+"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -21796,7 +21805,7 @@ jack socket</text>
 <wire x1="68.58" y1="114.3" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
 <junction x="68.58" y="99.06"/>
 <pinref part="IC1" gate="G$1" pin="VS"/>
-<pinref part="C6" gate="G$1" pin="+"/>
+<pinref part="C7" gate="G$1" pin="+"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="114.3" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
@@ -21823,7 +21832,7 @@ jack socket</text>
 <net name="N$6" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="2"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="101.6" x2="167.64" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
 <wire x1="182.88" y1="101.6" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
@@ -21832,7 +21841,7 @@ jack socket</text>
 <net name="N$11" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="1"/>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="96.52" x2="167.64" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
 <wire x1="172.72" y1="96.52" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
@@ -21988,7 +21997,7 @@ jack socket</text>
 <pinref part="P+4" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="129.54" x2="132.08" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="IC2" gate="G$1" pin="AVCC"/>
@@ -22017,18 +22026,18 @@ jack socket</text>
 </segment>
 <segment>
 <pinref part="GND11" gate="G$1" pin="GND1"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="68.58" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="71.12" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="101.6" x2="152.4" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="96.52" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="101.6" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="96.52" x2="152.4" y2="73.66" width="0.1524" layer="91"/>
 <junction x="152.4" y="96.52"/>
 <wire x1="152.4" y1="73.66" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <pinref part="IC2" gate="G$1" pin="GND@2"/>
 <wire x1="182.88" y1="71.12" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="71.12" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
@@ -22075,7 +22084,7 @@ jack socket</text>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="C5" gate="G$1" pin="-"/>
+<pinref part="C6" gate="G$1" pin="-"/>
 <wire x1="93.98" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="63.5" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="45.72" x2="106.68" y2="45.72" width="0.1524" layer="91"/>
@@ -22148,7 +22157,7 @@ jack socket</text>
 <segment>
 <pinref part="IC2" gate="G$1" pin="AREF"/>
 <wire x1="182.88" y1="111.76" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="91.44" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -22209,6 +22218,13 @@ jack socket</text>
 <pinref part="C3" gate="G$1" pin="+"/>
 <wire x1="33.02" y1="96.52" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
 <junction x="33.02" y="96.52"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="C4" gate="G$1" pin="+"/>
+<pinref part="IC1" gate="G$1" pin="BYPASS"/>
+<wire x1="63.5" y1="53.34" x2="63.5" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
