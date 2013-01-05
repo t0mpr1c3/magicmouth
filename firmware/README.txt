@@ -44,7 +44,8 @@ Generating source code
 ======================
 
 Download the src directory
-Unzip src/webbotlibV2/webbotavrclib-2.09 into src/webbotlibV2/webbotavrclib-2.09
+Download the webbotlib v2.09 from http://sourceforge.net/projects/webbotavrclib/files/Version2/webbotavrclib-2.09.zip/download
+Unzip the webbotlib library into src/webbotlibV2/webbotavrclib-2.09
 Delete old AVRstudio file magic_mouth_firmware.aps
 Open magic_mouth_firmware.prj in the webbotlib project designer.
 Edit project design as desired.
